@@ -1,0 +1,124 @@
+#root {
+  /* max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center; */
+}
+@keyframes scroll {
+  0%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+
+}
+.animate-scroll {
+  display: inline-flex;
+  animation: scroll 15s linear infinite;
+}
+
+.section-container {
+  @apply max-w-screen-2xl container mx-auto py-20 px-5;
+}
+
+.image-container {
+  display: flex;
+  gap: 15px;
+}
+.image-container > div {
+  width: 25%;
+}
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.buttons{
+  text-align: center; 
+}
+.buttons button{
+  width: 50px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 17px;
+  margin: 11px;
+  cursor: pointer;
+}
+.active{
+  background-color: #fff;
+  color: black;
+  border: 1px solid black;
+}
+.preBtn{
+  width: 80px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 17px;
+  margin: 11px;
+  cursor: pointer;
+}
+.nextBtn{
+  width: 80px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 17px;
+  margin: 11px;
+  cursor: pointer;
+}
+
+button {
+  width: auto;
+  height: auto;
+}
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */

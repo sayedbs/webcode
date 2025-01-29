@@ -1,0 +1,20 @@
+import './index.css'
+import './App.css'
+import { Outlet } from 'react-router'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+
+function App() {
+
+  return (
+    <div>
+      <Navbar/>
+      <main className='min-h-screen'>
+        <Outlet/>
+      </main>      
+      <Footer/>
+    </div>
+  )
+}
+
+export default App
